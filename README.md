@@ -2,6 +2,12 @@
 
 GitHub action for loading Xcode version from shared file.
 
+## Prerequisities
+
+As this action is tied to Xcode, it is required to be run on **macOS** runners. 
+
+Also it expects that Xcode version defined in you version files is available on your runner and it is in default _Applications_ folder (_/Applications/Xcode\_{version}.app_).
+
 ## Inputs
 
 | Name | Description |     |
