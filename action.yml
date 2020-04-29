@@ -1,5 +1,8 @@
 name: 'Load Xcode version'
 description: 'Load Xcode version from shared storage and optionally select it'
+branding:
+  icon: 'at-sign'
+  color: 'blue'
 inputs:
   xcode_version_location:
     description: 'Location of file where Xcode version is located'

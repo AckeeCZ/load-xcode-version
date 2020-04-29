@@ -28,7 +28,7 @@ Also it expects that Xcode version defined in you version files is available on 
 If you store your Xcode version in default location and you want the action to select it for you, you just call the action without any arguments.
 
 ```YAML
-uses: AckeeCZ/load-xcode-version@v1
+uses: AckeeCZ/load-xcode-version@1.0
 ```
 
 ### Customized usage
@@ -36,7 +36,7 @@ uses: AckeeCZ/load-xcode-version@v1
 If you store your Xcode version elsewhere and prefer to set it yourself, you just pass your location and you can disable calling `xcode-select`
 
 ```YAML
-uses: AckeeCZ/load-xcode-version@v1
+uses: AckeeCZ/load-xcode-version@1.0
 with:
     xcode_version_location: 'xcode_version'
     autoselect_xcode: 'false'
