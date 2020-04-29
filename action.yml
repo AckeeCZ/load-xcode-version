@@ -1,0 +1,13 @@
+name: 'Load Xcode version'
+description: 'Load Xcode version from shared storage'
+inputs:
+  xcode_version_location:  # id of input
+    description: 'Location of file where Xcode version is located'
+    required: true
+    default: '.github/xcode-version'
+outputs:
+  xcode_version: # id of output
+    description: 'Version of Xcode loaded from given location'
+runs:
+  using: 'node14'
+  main: 'index.js'
