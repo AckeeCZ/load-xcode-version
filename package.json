@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olejnjak/load-xcode-version.git"
+    "url": "git+https://github.com/AckeeCZ/load-xcode-version.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olejnjak/load-xcode-version/issues"
+    "url": "https://github.com/AckeeCZ/load-xcode-version/issues"
   },
-  "homepage": "https://github.com/olejnjak/load-xcode-version#readme",
+  "homepage": "https://github.com/AckeeCZ/load-xcode-version#readme",
   "dependencies": {
     "@actions/core": "^1.2.3"
   }
