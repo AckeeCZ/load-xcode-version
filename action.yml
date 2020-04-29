@@ -1,5 +1,5 @@
 name: 'Load Xcode version'
-description: 'Load Xcode version from shared storage'
+description: 'Load Xcode version from shared storage and optionally select it'
 inputs:
   xcode_version_location:
     description: 'Location of file where Xcode version is located'
