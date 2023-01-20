@@ -16,5 +16,5 @@ outputs:
   xcode_version:
     description: 'Version of Xcode loaded from given location'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
