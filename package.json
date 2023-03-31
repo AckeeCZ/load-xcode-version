@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "GitHub action for loading Xcode version from shared storage",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AckeeCZ/load-xcode-version.git"
@@ -18,6 +15,6 @@
   },
   "homepage": "https://github.com/AckeeCZ/load-xcode-version#readme",
   "dependencies": {
-    "@actions/core": "^1.9.1"
+    "@actions/core": "^1.10.0"
   }
 }
