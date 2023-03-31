@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "GitHub action for loading Xcode version from shared storage",
   "main": "index.js",
+  "scripts": {
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
+    "all": "npm run prepare"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AckeeCZ/load-xcode-version.git"
@@ -16,5 +20,8 @@
   "homepage": "https://github.com/AckeeCZ/load-xcode-version#readme",
   "dependencies": {
     "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1"
   }
 }
