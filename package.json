@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/AckeeCZ/load-xcode-version#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.9.1"
   }
 }
