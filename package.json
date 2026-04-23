@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/AckeeCZ/load-xcode-version#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.11.1"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1"
